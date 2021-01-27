@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="select-city">
+            <label for="city">Выберите город</label>
+            <select id="city">
+                <optgroup class="cities">
+                    <option value="696643">Полтава</option>
+                    <option value="706483">Харьков</option>
+                    <option value="703448">Киев</option>
+                    <option value="524901">Москва</option>
+                </optgroup>
+            </select>
+        </div>
+        <div class="weather-widget">
+            <div class="temp-info">
+                <div class="location">
+                    <img src="img/location-ico.png" alt="location" class="geo-img">
+                    <span class="city-name"></span>
+                </div>
+                <div class="grad">54℃</div>
+            </div>
+            <div class="curr-weatherImg">
+            </div>
+            <div class="description"></div>
+            <div class="add-info">
+                <p>МАКСИМУМ</p>
+                <p class="text-right">МИНИМУМ</p>
+                <span class="max">53℃</span>
+                <span class="min text-right">43℃</span>
+            </div>
+            <div class="days">
+                <div class="active day"></div>
+                <div class=" day"></div>
+                <div class=" day"></div>
+                <div class=" day"></div>
+                <div class=" day"></div>
+                <div class=" day"></div>
+                <div class=" day"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="unit_14.js"></script>
+</body>
+
+</html>

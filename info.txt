@@ -1,0 +1,1 @@
+Использован сайт https://www.weatherbit.io/api/weather-forecast-16-day
